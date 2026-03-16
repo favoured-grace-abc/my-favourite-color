@@ -1,10 +1,3 @@
-/*
-Declare a variable num = 60 . Write conditions to check and print:
-Whether it is divisible by 2
-Whether it is divisible by 3
-Whether it is divisible by 5
-Whether it is divisible by all three
-*/
 let num = 60;
 
 if (num % 2 === 0) {
@@ -22,7 +15,7 @@ if (num % 2 === 0 && num % 3 === 0 && num % 5 === 0) {
 
 num = 25;
 
- if (num % 2 === 0) {
+if (num % 2 === 0) {
   console.log(`Divisible by 2: ${true}.`);
 }
 if (num % 3 === 0) {
@@ -36,8 +29,8 @@ if (num % 2 === 0 && num % 3 === 0 && num % 5 === 0) {
   console.log(`Divisible by 2, 3, and 5: ${true}.`);
 }
 
-  num = 12
- if (num % 2 === 0) {
+num = 12;
+if (num % 2 === 0) {
   console.log(`Divisible by 2: ${true}.`);
 }
 if (num % 3 === 0) {
@@ -51,8 +44,8 @@ if (num % 2 === 0 && num % 3 === 0 && num % 5 === 0) {
   console.log(`Divisible by 2, 3, and 5: ${true}.`);
 }
 
-num = 45
- if (num % 2 === 0) {
+num = 45;
+if (num % 2 === 0) {
   console.log(`Divisible by 2: ${true}.`);
 }
 if (num % 3 === 0) {
@@ -66,8 +59,8 @@ if (num % 2 === 0 && num % 3 === 0 && num % 5 === 0) {
   console.log(`Divisible by 2, 3, and 5: ${true}.`);
 }
 
-num = 7
- if (num % 2 === 0) {
+num = 7;
+if (num % 2 === 0) {
   console.log(`Divisible by 2: ${true}.`);
 }
 if (num % 3 === 0) {
