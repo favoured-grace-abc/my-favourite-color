@@ -1,8 +1,3 @@
-// Declare length = 12 and width = 7 .
-// Calculate and print:
-// The area of the rectangle
-// The perimeter of the rectangle
-
 let length = 12;
 let width = 7;
 
