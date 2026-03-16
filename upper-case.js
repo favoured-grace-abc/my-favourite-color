@@ -6,16 +6,15 @@
 
 let fullName = "amarachi grace nathan";
 let words = fullName.split(" ");
-let capitalizedWords = [];
+let names = "";
 
-for (let i = 0; i < words.length; i++) {
-  let word = words[i];
-  let capitalizedWord = word.charAt(0).toUpperCase() + word.slice(1);
-  capitalizedWords.push(capitalizedWord);
-}
+for (i of words){
+    i = i[0].toUpperCase() + i.slice(1).toLowerCase()
+    names = `${names} ${i}`;
+    }
 
-let result = capitalizedWords.join(" ");
-console.log(result);
+ console.log(names);
+
 
 
 
