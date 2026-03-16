@@ -18,7 +18,7 @@ if (word2.length < 5) {
   } 
   else if (word2 .length >= 5 && word2 .length <= 8) {
     console.log(word2 + " :Medium"); 
-  }
+  }  
    else {
     console.log(word2 + " :Long"); 
   } 
