@@ -5,5 +5,5 @@ let temp = a;
 a = b;
 b = temp;
 
-console.log("a is now:", a);
-console.log("b is now:", b);
+console.log(`a is now: ${a}`)
+console.log(`b is now: ${b}`)
